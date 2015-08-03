@@ -7,6 +7,7 @@ script:
     - python contemplate_koans.py # add further koans here separated by spaces
 notifications:
   email: false
+  webhooks: https://travisci-grade-taker.herokuapp.com/travis_webhook
 
 # Some other koans (see runner/sensei.py or "ls koans" to see the light):
 #
