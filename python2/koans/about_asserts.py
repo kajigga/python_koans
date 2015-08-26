@@ -10,13 +10,13 @@ class AboutAsserts(Koan):
         """
         We shall contemplate truth by testing reality, via asserts.
         """
-        self.assertTrue(True)  # This should be true
+        self.assertTrue(__CHANGE_THIS__)  # This should be true
 
     def test_assert_with_message(self):
         """
         Enlightenment may be more easily achieved with appropriate messages.
         """
-        self.assertTrue(True, "This should be true -- Please fix this")
+        self.assertTrue(__CHANGE_THIS__, "This should be true -- Please fix this")
 
     def test_fill_in_values(self):
         """
